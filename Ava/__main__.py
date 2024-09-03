@@ -39,20 +39,20 @@ PM_START_TEX = """
 ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
 """
 
-START_IMG = "https://telegra.ph/file/551c987ff6964e408defb.jpg"
-HELP_IMG = "https://telegra.ph/file/e8170cda7390946b750f7.jpg"
+START_IMG = "https://graph.org/file/5b9490a8a099f03174b3b.jpg"
+HELP_IMG = "https://graph.org/file/8807e34ef0b11498981e0.jpg"
 
 buttons = [
     [
         InlineKeyboardButton(text="❣ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
-        InlineKeyboardButton(text="🥀 sᴛᴀᴛs 🥀", callback_data="stats_callback"),
+        InlineKeyboardButton(text="⛩️ʜᴇʟᴩ⛩️", callback_data="help_back"),
+        InlineKeyboardButton(text="🍁 ᴜᴘᴅᴀᴛᴇ🍁", url=f"t.me/ur_rishu_143"),
     ],
     [
-        InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="Jarvis_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🎯 ᴀʙᴏᴜᴛ🎯", callback_data="Jarvis_"),
+        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ🖤", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
